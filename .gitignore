@@ -1,7 +1,68 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Node.js
 node_modules/
 dist/
+build/
+
+# Environment files
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+
+# Uploads
 uploads/*
 !uploads/.gitkeep
-*.log
+
+# IDE Files
+.project
+.classpath
+.settings/
+.factorypath
+
+# STS / Eclipse
+.springBeans
+.apt_generated/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# MacOS
 .DS_Store
+
+# Windows
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+
