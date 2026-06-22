@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/medicare
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 5000
+
+app:
+  jwt:
+    secret: dev-secret-key-medicare-backend-secure-2024-v2-replace-in-prod
+    expirationMs: 604800000 # 7 days in ms
